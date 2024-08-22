@@ -1,0 +1,28 @@
+
+<!--    <li [ngClass]="{'red' : t.stock > 50 , 'right' : t.stock < 50}">-->
+
+
+<input    type="text" placeholder="Entrer le Nom"  [(ngModel)]="findtext">
+<div>
+  <table class="table" >
+    <thead class="thead-dark">
+    <tr>
+      <th scope="col">ID</th>
+      <th scope="col">NAME</th>
+      <th scope="col">PRICE</th>
+      <th scope="col">CATEGORY</th>
+      <th scope="col">QUANTIE</th>
+
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let t of td  "  >
+      <td [ngClass]="{'b': t.stock > 50, 'a':t.stock < 50}">{{t.id}}</td>
+      <td [ngClass]="{'b': t.stock > 50, 'a':t.stock < 50}">{{t.name}}</td>
+      <td [ngClass]="{'b': t.stock > 50, 'a':t.stock < 50}">{{t.price}}</td>
+      <td [ngClass]="{'b': t.stock > 50, 'a':t.stock < 50}">{{t.category}}</td>
+      <td [ngClass]="{'b': t.stock > 50, 'a':t.stock < 50}">{{t.stock}}</td>
+    </tr>
+    </tbody>
+  </table>
+</div>

@@ -6,7 +6,8 @@ import {InventaireComponent} from "./inventaire/inventaire.component";
 
 const routes: Routes = [
   {path : "", component : AppComponent, children:[
-      {path: "tp", component :InventaireComponent }
+      {path: "tp", component :InventaireComponent },
+      {path:"tp1" ,component: TACHEComponent}
     ]},
 ];
 
