@@ -25,6 +25,8 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/ngx-bootstrap/datepicker/bs-datepicker.css",
+              "./node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
             ],
             "scripts": []
@@ -87,12 +89,18 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "C:\\Users\\ibrahim\\ListeGestion\\node_modules\\bootstrap\\dist\\css\\bootstrap.min.css"
             ],
-            "scripts": []
+            "scripts": [
+              "C:\\Users\\ibrahim\\ListeGestion\\node_modules\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+            ]
           }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "72c3d624-e21e-43fc-bfe2-a02cb024466d"
   }
 }
